@@ -1,0 +1,19 @@
+{
+  "name": "benkrisna.github.io",
+  "version": "1.0.0",
+  "description": "Ben's Garage Sale",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benkrisna/benkrisna.github.io.git"
+  },
+  "author": "Benyamin Krisna, Felix Arjuna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benkrisna/benkrisna.github.io/issues"
+  },
+  "homepage": "https://github.com/benkrisna/benkrisna.github.io#readme"
+}
