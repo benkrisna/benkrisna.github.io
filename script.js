@@ -19,8 +19,6 @@ const mobels = [
   },
 ];
 
-const container = document.querySelector("div.card-deck");
-
 mobels.map((mobel) => {
   $("div.card-deck").append(`
     <div class="card">
