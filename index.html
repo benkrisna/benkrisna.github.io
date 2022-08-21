@@ -1,57 +1,75 @@
 <!DOCTYPE html>
-<style>
-  html * {
-    font-size: 16px;
-    line-height: 1.625;
-    color: #2020131;
-    font-family: Nunito, sans-serif;
-  }
-  p {
-    text-align: center;
-  }
-  h1 {
-    text-align: center;
-  }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
-<script>
-  const mobels = ["kallax", "meja-coklat", "Wooden shelf"];
-</script>
-
 <html>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <head>
     <title>The ultimate garage sale</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Ben's garage sale</h1>
-    <p>Welcome to Ben's garage sale!</p>
+    <h1>Ben's Garage</h1>
+    <h2>Welcome to Ben's garage sale!</h2>
     <p>Here's what I am selling...</p>
-    <p>Prices are in Euro ('duuh)</p>
 
     <!-- Kallax -->
-    <img src="pictures/kallax.jpg" alt="Kallax" width="500" height="600" class="center">
-    <p>Kallax</p>
-    <p>Price: 15 (negotiable)</p>
-
-    <!-- Meja coklat -->
-    <img src="pictures/meja-coklat.jpg" alt="Meja coklat" width="500" height="600" class="center">
-    <p>Meja coklat</p>
-    <p>Price: 5 (negotiable)</p>
-
-    <!-- Wooden shelf-->
-    <img src="pictures/wooden-shelf.jpg" alt="Wooden shelf" width="500" height="600" class="center">
-    <p>Wooden shelf</p>
-    <p>Price: 10 (negotiable)</p>
-
+    <div class="container-fluid">
+      <div class="card-deck">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="pictures/kallax.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Kallax</h5>
+            <p class="card-text">Price: 15 €</p>
+          </div>
+          <p class="card-text">
+            <small class="text-muted">negotiable</small>
+          </p>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="pictures/meja-coklat.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Meja Coklat</h5>
+            <p class="card-text">Price: 5 €</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="pictures/wooden-shelf.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Wooden shelf</h5>
+            <p class="card-text">Price: 15 €</p>
+            <p class="card-text">
+              <small class="text-muted">negotiable</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
     <p>I know you're interested!</p>
     <p>Contact me! LINE:@benkrisna</p>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #202013;
+    font-family: Nunito, sans-serif;
+}
+
+p {
+    text-align: center;
+    margin: 1rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.img-container {
+    display: flex;
+}
